@@ -8,11 +8,11 @@ export VERSION1=""$(lsb_release -sr)" ("$(lsb_release -sc)")"
 export VERSION2=""$(lsb_release -sr)""
 export VERSION3="Remaster "$(lsb_release -sd)" ("$(lsb_release -sc)")"
 export VERSION4=""$(lsb_release -sd)""
-export PRODUCTURL1="https://www.linuxmint.com"
-export PRODUCTURL2="https://community.linuxmint.com"
-export PRODUCTURL3="https://linuxmint.com/rel_ulyssa_mate.php"
+export PRODUCTURL1="https:\/\/www.linuxmint.com"
+export PRODUCTURL2="https:\/\/community.linuxmint.com"
+export PRODUCTURL3="https:\/\/linuxmint.com/rel_ulyssa_mate.php"
 
-cp -af branding.desc.mod branding.desc
+sudo cp -af branding.desc.mod branding.desc
 
 sudo sed -i "/componentName/s/COMPONENTNAME/$COMPONENTNAME/" branding.desc
 sudo sed -i "/productName/s/PRODUCTNAME1/$PRODUCTNAME1/" branding.desc
