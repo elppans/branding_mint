@@ -10,7 +10,7 @@ export VERSION3="Remaster "$(lsb_release -sd)" ("$(lsb_release -sc)")"
 export VERSION4=""$(lsb_release -sd)""
 export PRODUCTURL1="https:\/\/www.linuxmint.com"
 export PRODUCTURL2="https:\/\/community.linuxmint.com"
-export PRODUCTURL3="https:\/\/linuxmint.com/rel_ulyssa_mate.php"
+export PRODUCTURL3="https:\/\/linuxmint.com\/rel_ulyssa_mate.php"
 
 sudo cp -af branding.desc.mod branding.desc
 
