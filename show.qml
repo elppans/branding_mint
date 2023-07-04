@@ -40,8 +40,8 @@ Presentation
         Text {
             anchors.horizontalCenter: background1.horizontalCenter
             anchors.top: background1.bottom
-            text: "Welcome to Remaster Linux Mint.<br/>"+
-                  "The rest of the installation is automated and should complete in a few minutes."
+            text: "Bem vindo ao Remaster Linux Mint.<br/>"+
+                  "O restante da instalação é automatizada e deve ser concluída em poucos minutos."
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
